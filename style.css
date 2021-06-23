@@ -1,0 +1,20 @@
+body{
+    display: flex;
+}
+
+.container{
+    background-color: blueviolet;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vh;
+}
+
+.primeiro{
+    background-color:blue;
+}
+
+.segundo{
+    background-color: coral;
+}
