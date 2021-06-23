@@ -1,48 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 html{
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
 }
 
 
 body{
     display: flex;
+    margin-top: 200px;
 }
 
 .container{
-    background-color: blueviolet;
+    background-color:rgb(165, 165, 238);
     flex-direction: column;
-    height: 100vh;
-    width: 100vh;
+    height: 130px;
+    width: 400px;
+    border-radius: 10px;
 }
 
 .primeiro{
-    background-color:rgb(77, 77, 206);
+    background-color:rgb(165, 165, 238);
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
 
 
 }
 
 input{
-background-color: rgb(123, 184, 123);
-/* height: 20px;
-width: 100px; */
-padding-top: 20px;
-padding-right: 20px;
-padding-bottom: 10px;
-padding-right:  20px;
+background-color: rgb(255, 255, 255);
+height: 30px;
+width: 100%;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left:  20px;
+border: rgb(54, 54, 54) solid 2px;
+border-radius: 5px;
+color: black;
+font-family: 'Roboto', sans-serif;
+font-size: 150%;
 
 }
 
 
 .segundo{
-    background-color: coral;
+    background-color:rgb(165, 165, 238);
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-right:  20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left:  20px;
+
+}
+
+.botao1{
+    background-color: rgb(223, 211, 230);
+    border: rgb(54, 54, 54) dashed 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    color: rgb(66, 66, 66); 
+}
+
+.botao2{
+    background-color: rgb(223, 211, 230);
+    border: rgb(54, 54, 54) dashed 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    color: rgb(66, 66, 66); 
 }
